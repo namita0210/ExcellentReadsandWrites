@@ -8,6 +8,16 @@ body {
     font-size: 14px;
     line-height: 19px;
     font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+/*Footer----------------------------------------------------------------------------------------------------------*/
+
+/* Adjust the footer styles */
+footer {
+    margin-top: auto; /* Push the footer to the bottom of the flex container */
 }
 
 /* footer main container div */
@@ -17,13 +27,6 @@ body {
     display: flex;   
 }
 
-/* footer child div Heading */
-.fc h3{
-    font-size: 14px;
-    margin: 0px 0px 8px;
-    color: #767676;
-    
-}
 /* footer child div */
 .fc {
     padding: 0px 15px;
@@ -31,14 +34,50 @@ body {
     box-sizing: border-box;
     position: relative;
 }
-/* footer child div list */
+
+/* footer child div Heading */
+.fc h3{
+    font-size: 14px;
+    margin: 0px 0px 8px;
+    color: #767676;
+    text-align: center;
+}
+
+/* footer child div Unordered list */
 .fc ul{
     font-size: 14px;
     list-style: none;
     margin-bottom: 32px;
     margin-top: 0;
+    text-align: left;
 }
 
-list-footer{
-    line-height: 1.5;
+/* footer child div Ordered list */
+.fc li{
+    margin-left: 0px;
+}
+
+/*footer last column - get on android*/
+#fc-4{
+    box-sizing: border-box;
+    color :rgb(24, 24, 24);
+    display :flex;
+    flex-basis :50%;
+    flex-grow :0;
+    flex-shrink :0;
+    font-family :Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    height :205.396px;
+    justify-content :flex-end;
+    line-height :18px;
+    max-width: 50%;
+    min-height :1px;
+    padding-left :15px;
+    padding-right: 15px;
+    position :relative;
+    width: 510px;
+}
+
+#fc-3 {
+    margin-left: 40px; /* Adjust this value to move it slightly to the right */
 }
