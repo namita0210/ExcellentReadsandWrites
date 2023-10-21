@@ -10,25 +10,35 @@ body {
     font-family: "Lato", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
+/* footer main container div */
 .fc-uno{
     background-color: #F9F8F4;
     padding-top: 32px; 
     display: flex;   
 }
 
+/* footer child div Heading */
 .fc h3{
     font-size: 14px;
     margin: 0px 0px 8px;
     color: #767676;
+    
 }
-
+/* footer child div */
 .fc {
     padding: 0px 15px;
     color: black;
     box-sizing: border-box;
     position: relative;
 }
-
+/* footer child div list */
 .fc ul{
+    font-size: 14px;
     list-style: none;
+    margin-bottom: 32px;
+    margin-top: 0;
+}
+
+list-footer{
+    line-height: 1.5;
 }
